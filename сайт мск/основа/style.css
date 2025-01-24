@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-uniquifier {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    ;
+  }
+.logo_msc{
+    height: 100px;
+    width: 100px;
+}
+
+header{
+    height: 106px;
+    padding: 0 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #F3881A;
+}
+header a{
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.logo{
+    font-family: "Roboto", serif;
+    font-size: 30px;
+
+}
+body{
+    margin: 0;
+    font-family: "Roboto" serif;
+    background: linear-gradient(#590d6c,#2213af);
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+body>* {
+    background-color: #64345C;
+    /* padding: 5px; */
+    /* width: 150%; */
+}
+.teimo_magazine{
+    height: 180px;
+    width: 300px;
+}
+main{
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 30px;
+    border-top: 5px solid #DC4239;
+    border-left: 5px solid #DC4239;
+    border-right: 5px solid #F3881A;
+    border-bottom: 5px solid #F3881A;
+}
+footer{
+    margin-top: 100px;
+    border-top: 5px solid #F3881A;
+    border-left: 5px solid #DC4239;
+    border-right: 5px solid #F3881A;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
